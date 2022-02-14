@@ -72,6 +72,22 @@ s*G = y + H(x || PubKey || H(m)) * PubKey.
 ```
 
 Let us solve now:
-~~~
-s1 = k + H(x || PubKey || H(m<sub>1</sub>))*PrivKey
-~~~
+```
+since both signatures have similar nonces, here k
+
+s1 = k + H(x || PubKey || H(m1))*PrivKey
+
+s2 = k + H(x || PubKey || H(m2))*PrivKey 
+
+since, H(m1) and H(m2) wll generate different hashes
+
+
+s1 = k + H1*PrivKey  ...(1)
+
+s2 = k + H2*PrivKey  ...(2)
+
+substract equation 1 and equation 2
+
+PrivKey = (s1 - s2) / (H1 - H2)
+
+```
