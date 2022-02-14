@@ -72,6 +72,8 @@ k*G will generate a point, we only take the y value of it, and PrivKey*G is just
 s*G = y + H(x || PubKey || H(m)) * PubKey.
 ```
 
+If you are familiar with ECDSA you will notice schnorr signature generation and verification is much simpler than that of ECDSA.
+
 Let us solve now:
 ```
 since both signatures have similar nonces, here k
