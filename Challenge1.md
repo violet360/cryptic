@@ -1,3 +1,4 @@
+### Question
 original link -> [puzzle](https://gist.github.com/robot-dreams/669c13bc724fdeb9af8460c9b64d5665)
 
 Quick Explanation:
@@ -39,7 +40,7 @@ F3F148DBF94B1BCAEE1896306141F319729DCCA9451617D4B529EB22C2FB521A32A1DB8D2669A00A
 F3F148DBF94B1BCAEE1896306141F319729DCCA9451617D4B529EB22C2FB521A974240A9A9403996CA01A06A3BC8F0D7B71D87FB510E897FF3EC5BF347E5C5C1
 ```
 
-Solution:
+### Solution
 
 If you are not familiar with schnorr, better to ask is "what is schnorr?" and "why is schnorr ?".
 Here is a simple description:
