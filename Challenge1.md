@@ -94,3 +94,6 @@ substract equation 1 and equation 2
 PrivKey = (s1 - s2) / (H1 - H2)
 
 ```
+
+
+an interesting [link](https://medium.com/asecuritysite-when-bob-met-alice/not-playing-randomly-the-sony-ps3-and-bitcoin-crypto-hacks-c1fe92bea9bc)
