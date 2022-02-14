@@ -1,6 +1,6 @@
 original link -> [puzzle](https://gist.github.com/robot-dreams/669c13bc724fdeb9af8460c9b64d5665)
 
-Quick Explaination:
+Quick Explanation:
 You're given Schnorr signatures on two different messages signed by the same private key. Fortunately for you (the adversary), the signer screwed up their implementation of [BIP-340](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki) and reused a nonce.
 
 Can you capitalize on this fatal error and extract the signer's private key?
@@ -72,6 +72,6 @@ s*G = y + H(x || PubKey || H(m)) * PubKey.
 ```
 
 Let us solve now:
-```
+~~~
 s1 = k + H(x || PubKey || H(m<sub>1</sub>))*PrivKey
-```
+~~~
